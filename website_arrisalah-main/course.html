@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PONDOK PESANTREN DARUL MUKHLASIN BANJARNEGARA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--background halaman utama-->
+
+    <!-- Beranda -->
+    <section class="sub-header">
+       <nav>
+        <!--logo-->
+        <a href="index.html"><img src="img_contoh/logoAr.png" alt="" ></a>
+        <!--daftar nav-->
+        <div class="nav-links" id="navLinks">
+          <!-- icon silang -->
+          <i class="fa fa-times" onclick="hiddenMenu()"></i>
+          <ul>
+            <li><a href="index - Copy.html">BERANDA</a></li>
+            <li><a href="about.html">TENTANG</a></li>
+            <li><a href="blog.html">BERITA</a></li>
+            <li><a href="course.html">DATA</a></li>
+            <li><a href="kontak.html">KONTAK</a></li>
+          </ul>
+        </div>
+        <!-- icon navbar -->
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+       </nav>
+      <h1>Data Kami</h1>
+    </section>
+    <div class="blog-right">
+      <h3>Ustadz</h3>
+      <div>
+        <span>NAMA</span>
+        <span>JABATAN</span>
+      </div>
+      <div>
+        <span>Ust Khusnul</span>
+        <span>Pengurus utama</span>
+      </div>
+      <div>
+        <span>Ust Abdurrahman</span>
+        <span>Tahfidz </span>
+      </div>
+      <div>
+        <span>Ust Hamdani</span>
+        <span>Bahasa </span>
+      </div>
+      <div>
+        <span>Ust Wahyu</span>
+        <span>kebersihan</span>
+      </div>
+    </div>
+
+    <div class="blog-right">
+      <h3>Hafalan Santri</h3>
+      <div>
+        <span>NAMA</span>
+        <span>Total Hafalan</span>
+      </div>
+      <div>
+        <span>Qois</span>
+        <span>30 juz</span>
+      </div>
+      <div>
+        <span>Afif</span>
+        <span>10 juz</span>
+      </div>
+      <div>
+        <span>Khairul</span>
+        <span>15 juz</span>
+      </div>
+      <div>
+        <span>Abdullah</span>
+        <span>20 juz</span>
+      </div>
+    </div>
+
+
+    <section class="campus">
+      <h1>Pesantrenku</h1>
+      <p>tempat di mana banyak impian diciptakan</p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="qois.jpeg" alt="">
+          <div class="layer">
+            <h3>Alim</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="bersama.jpeg" alt="">
+          <div class="layer">
+            <h3>Kebersamaan</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="ceria.jpeg" alt="">
+          <div class="layer">
+            <h3>Ceria</h3>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <h4>Kontak kami</h4>
+      <div class="icons">
+        <i class="fa fa-facebook">Darul Mukhlasin Banjarnegara</i>
+        <i class="fa fa-youtube">Darul Mukhlasin Banjarnegara</i>
+        <i class="fa fa-instagram">Darul Mukhlasin Banjarnegara</i>
+        <i class="fa fa-twitter">Darul Mukhlasin Banjarnegara</i>
+      </div>
+      <p>Menjadi<i class="fa fa-heart-o "></i> setiap orang tua</p>
+    </section>
+
+
+
+
+
+
+    <!-- Membuat navbar buka tutup ketika di layar kecil -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+          navLinks.style.right="0";
+       }
+       function hiddenMenu(){
+        navLinks.style.right="-200px";
+       }
+    </script>
+</body>
+</html>
